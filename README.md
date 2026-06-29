@@ -2,6 +2,10 @@
 
 React 18 + TypeScript ile hazırlanmış poliklinik hasta randevu ve takip paneli.
 
+## Canli Demo
+
+https://abisena-iota.vercel.app/
+
 ## Özellikler
 
 - Hasta kayıtlarını `GET https://v0-json-api-three.vercel.app/api/data` üzerinden yükler.
