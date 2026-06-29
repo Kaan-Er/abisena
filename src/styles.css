@@ -267,20 +267,11 @@ label,
   text-transform: uppercase;
 }
 
-.source-line,
 .local-note,
 td small,
 .field small {
   color: var(--muted);
   font-size: 0.82rem;
-}
-
-.source-line {
-  margin-bottom: 0;
-}
-
-.source-line span {
-  color: #3c3c38;
 }
 
 .local-note {

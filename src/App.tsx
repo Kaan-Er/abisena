@@ -16,7 +16,7 @@ import {
   X,
 } from 'lucide-react';
 import { FormEvent, ReactNode, useEffect, useMemo, useState } from 'react';
-import { API_URL, fetchPatients } from './patientApi';
+import { fetchPatients } from './patientApi';
 import {
   bloodTypes,
   createEmptyForm,
@@ -223,9 +223,6 @@ export function App() {
         <div className="table-header">
           <div>
             <p className="section-label">{t.patients}</p>
-            <p className="source-line">
-              {t.apiSource}: <span>{API_URL}</span>
-            </p>
           </div>
           <p className="local-note">{t.localOps}</p>
         </div>
